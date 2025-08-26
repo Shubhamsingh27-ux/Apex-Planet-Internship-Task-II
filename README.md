@@ -8,12 +8,14 @@ It allows users to browse through a collection of images with features like full
 - Fast and lightweight.
 
   **Project Structure**
-  image-gallery/
-│── index.html        # Main HTML file
-│── style.css         # Stylesheet
-│── script.js         # JavaScript file (optional for lightbox)
-│── images/           # Folder containing images
-│── README.md         # Project documentation
+  
+  **image-gallery/**
+  
+- │── index.html        # Main HTML file
+- │── style.css         # Stylesheet
+- │── script.js         # JavaScript file (optional for lightbox)
+- │── images/           # Folder containing images
+- │── README.md         # Project documentation
 
 **Customization**
 - Add or remove images inside the images/ folder.
