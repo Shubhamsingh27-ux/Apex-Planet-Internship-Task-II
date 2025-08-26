@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography or Art Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>My Photography portfolio</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Capturing Moments, Creating Art & Making Memories</h2>
+        <p>Welcome to my photography and art portfolio.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            ✨ Welcome to my Photography and Art Portfolio.
+            Here, I capture moments and transform them into timeless stories through the lens and canvas. Each
+            photograph and artwork reflects my passion for creativity, detail, and expression. Explore my gallery to
+            discover a collection of visuals that speak beyond words.
+        </p>
+    </section>
+
+    <section id="images" class="photo">
+        <h2>My Collections</h2>
+        <div class="grid">
+            <img src="image1.avif" alt="photography1">
+            <img src="image2.avif" alt="photography2">
+            <img src="image3.avif" alt="photography3">
+            <img src="image4.avif" alt="photography4">
+            <img src="image5.avif" alt="artwork1">
+            <img src="image6.avif" alt="artwork2">
+            <img src="image7.avif" alt="artwork3">
+            <img src="image8.avif" alt="artwork4">
+            <img src="image9.avif" alt="artwork5">
+            <img src="image10.avif" alt="artwork6">
+            <img src="image11.avif" alt="artwork7">
+            <img src="image12.avif" alt="artwork8">
+            <img src="image13.avif" alt="painting1">
+            <img src="image14.avif" alt="painting2">
+            <img src="image15.avif" alt="painting3">
+            <img src="image16.avif" alt="painting4">
+        </div>
+
+        <div class="add-image">
+            <input type="text" id="imageUrl" placeholder="Enter Image URL">
+            <button id="addImageBtn">Add Image</button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="contact number" id="contact number" placeholder="Your Contact Number" required>
+            <textarea id="message" placeholder="Your message" required></textarea>
+            <button type="submit">submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© My Photography Portfolio 2025</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
